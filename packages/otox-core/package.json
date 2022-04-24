@@ -1,8 +1,12 @@
 {
   "name": "@otox/core",
   "version": "0.0.1",
-  "description": "",
+  "description": "otox gui framework",
   "main": "./dist/index.cjs.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kangdongmandoo/otox"
+  },
   "dependencies": {
     "ansi-to-html": "^0.7.2",
     "colors": "^1.4.0",
