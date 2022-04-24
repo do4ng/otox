@@ -1,6 +1,6 @@
 # Otox.js
 
-🛠️ code runner with web browser
+🛠️ code runner working with web browser
 
 ## Installation
 
