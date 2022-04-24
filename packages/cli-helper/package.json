@@ -1,12 +1,12 @@
 {
   "name": "@otox/cli-helper",
-  "version": "0.0.1",
-  "description": "",
-  "main": "./index.js",
-  "types": "./index.d.ts",
+  "version": "0.0.3",
+  "description": "process.argv parser",
+  "main": "index.js",
+  "types": "index.d.ts",
   "files": [
-    "./index.js",
-    "./index.d.ts"
+    "index.js",
+    "index.d.ts"
   ],
   "repository": {
     "type": "git",
