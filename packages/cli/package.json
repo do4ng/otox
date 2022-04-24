@@ -1,5 +1,5 @@
 {
-  "name": "@otox/cli",
+  "name": "otox",
   "version": "0.0.1",
   "description": "",
   "main": "./bin.js",
@@ -8,6 +8,6 @@
   },
   "dependencies": {
     "@otox/cli-helper": "^0.0.1",
-    "otox": "^0.0.1"
+    "@otox/core": "^0.0.1"
   }
 }
