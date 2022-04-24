@@ -7,7 +7,7 @@
 you can install it with npm:
 
 ```bash
-$ npm install @otox/cli -g
+$ npm install otox -g
 ```
 
 ```bash
