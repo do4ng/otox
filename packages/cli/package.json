@@ -1,13 +1,20 @@
 {
   "name": "otox",
-  "version": "0.0.1",
-  "description": "",
+  "version": "0.0.2",
+  "description": "code runner working with web browser",
   "main": "./bin.js",
   "bin": {
     "otox": "./bin.js"
   },
+  "files": [
+    "bin.js"
+  ],
   "dependencies": {
     "@otox/cli-helper": "^0.0.1",
     "@otox/core": "^0.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kangdongmandoo/otox"
   }
 }
