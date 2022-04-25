@@ -4,11 +4,11 @@ function isCapitalized(str) {
 
 const parse = function (args) {
   args = args.slice(2);
-  const command = args[0];
+  let command = null;
   const options = {};
   const params = [];
 
-  for (let i = 1; i < args.length; i++) {
+  for (let i = 0; i < args.length; i++) {
     const arg = args[i];
 
     if (arg.startsWith("--")) {
@@ -25,7 +25,11 @@ const parse = function (args) {
         options[arg.slice(1)] = true;
       }
     } else {
-      params.push(arg);
+      if (command) {
+        params.push(arg);
+      } else {
+        command = arg;
+      }
     }
   }
 
