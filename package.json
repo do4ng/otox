@@ -4,9 +4,10 @@
     "packages/*"
   ],
   "scripts": {
-    "build": "rollup -c"
+    "build": "rollup -c \"rollup.config.js\""
   },
   "devDependencies": {
+    "@rollup/plugin-commonjs": "^22.0.0",
     "@types/jest": "^27.4.0",
     "@types/node": "^17.0.18",
     "@types/ws": "^8.5.3",
