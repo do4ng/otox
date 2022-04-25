@@ -1,6 +1,6 @@
 {
   "name": "otox",
-  "version": "0.0.4",
+  "version": "1.0.0",
   "description": "code runner working with web browser",
   "main": "./bin.js",
   "bin": {
@@ -10,7 +10,7 @@
     "bin.js"
   ],
   "dependencies": {
-    "@otox/cli-helper": "^0.0.3",
+    "@otox/cli-helper": "^0.0.6",
     "@otox/core": "^0.0.1"
   },
   "repository": {

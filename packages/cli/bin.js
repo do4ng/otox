@@ -9,6 +9,8 @@ const c = cli.parseWithOptions(process.argv, {
   version: "v",
 });
 
+// console.log(c);
+
 // @ts-ignore
 if (c.options.help) {
   console.log(`
@@ -21,9 +23,7 @@ if (c.options.help) {
   `);
   // @ts-ignore
 } else if (c.options.version) {
-  console.log(`cli: ${require("./package.json").version}`);
-  // @ts-ignore
-  console.log(`otox: ${require("./package.json").dependencies.otox}`);
+  console.log(`v${require("./package.json").version}`);
 } else {
   // @ts-ignore
   if (!c.options.port) {
