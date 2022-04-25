@@ -1,6 +1,6 @@
 {
   "name": "@otox/core",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "otox gui framework",
   "main": "./dist/index.cjs.js",
   "repository": {
@@ -10,7 +10,8 @@
   "dependencies": {
     "ansi-to-html": "^0.7.2",
     "colors": "^1.4.0",
-    "ws": "^8.5.0"
+    "ws": "^8.5.0",
+    "@otox/saver": "^0.0.1"
   },
   "exports": {
     "default": "./dist/index.cjs.js"
